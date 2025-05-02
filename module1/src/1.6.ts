@@ -1,3 +1,5 @@
+{
+
 //learning func
 // in js there are two type of func 
 // normal func and arrow func
@@ -25,3 +27,5 @@ const usePoor = {
 // ---------------------------
 const arr : number[] = [1,5,8];
 const newArray : number[] = arr.map((ele : number) : number => ele * ele)
+
+}
