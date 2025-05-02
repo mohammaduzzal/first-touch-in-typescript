@@ -12,7 +12,7 @@ const user ={
     country: 'ban'
 
 }
-const {contact, name:{middleName : midName}} = user //here midName is alias.in obj you can not write type after key.cuz key : any word (is alias)
+const {contact, name:{middleName : midName}} = user //here midName is name alias.in obj you can not write type after key.cuz key : any word (is alias)
 
 
 
