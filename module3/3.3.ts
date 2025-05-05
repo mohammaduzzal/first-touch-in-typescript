@@ -4,6 +4,8 @@
     // there are many way to declare type guard
     // 1. typeof ---> type guard -->execution will happened in run time
 
+    // in this we just use guard in func
+
     type AlphaNumeric = string | number;
 
     const add = (param1 :AlphaNumeric, param2 : AlphaNumeric) : AlphaNumeric =>{
