@@ -64,7 +64,7 @@
     }
 
 
-    const hondaCar = new ToyotaCar() //Cannot create an instance of anAbstract class just follow
+    const hondaCar = new ToyotaCar()
     hondaCar.move();
 
 

@@ -15,8 +15,12 @@
             this._balance = this._balance + amount
         }
 
-      public  getBalance(){
+      private  getBalance(){
             return this._balance
+        }
+
+        hiddenMethod(){
+            return this.getBalance()
         }
     };
 
