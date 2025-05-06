@@ -5,10 +5,10 @@
         name:string;
       protected _balance : number; //private dile child a _balance pawa jabe na tai child a pete hole private er jat vai "protected"use korte hobe 
 
-        constructor(id:number,name:string,_balance:number){
+        constructor(id:number,name:string,balance:number){
             this.id= id;
             this.name = name;
-            this._balance=_balance 
+            this._balance=balance 
         }
 
      public   addDeposit(amount : number){
